@@ -33,6 +33,8 @@ class ViewController: UIViewController,AVAudioPlayerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpElement()
+        
+        
         do {
             // 再生する audio ファイルのパスを取得
             let filePath = Bundle.main.path(forResource: "Clock", ofType: "mp3")
